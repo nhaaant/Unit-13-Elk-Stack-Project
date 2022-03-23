@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![](Unit-13-Elk-Stack-Project/Diagrams/Cloud_Security.jpg)
+![](Diagrams/Cloud Security.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -94,6 +94,7 @@ SSH into the control node and follow the steps below:
 - Copy the /etc/ansible/files/filebeat-config.yml to /etc/filebeat/filebeat.yml.
 - Update the configuration files to include elasticsearch and the elkserver IP for setup.kibana
 - Run the playbook, and navigate to (http://[ELKPublicIp]:5601/app/kibana#)Kibana to check that the installation worked as expected.
+
 
 
 
